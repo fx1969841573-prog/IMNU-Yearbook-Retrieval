@@ -6,7 +6,22 @@ The final qrels underwent a unified manual review. A second annotator independen
 
 This package also includes the final eight-method main results, five structural configurations, seven fixed hybrid weights, per-query metrics, and paired Wilcoxon results with four-test Holm correction. The evaluation script recomputes these from the frozen rankings and qrels; no retrieval model execution is required.
 
-**Known public-text limitation:** one `q28` query–unit pair has a semantic consistency difference between the de-identified text and the frozen evaluation text. The frozen qrel is retained to reproduce the paper's evaluation. Treat this pair explicitly in new evaluations on the public text. Pool-external results are unjudged and cannot automatically be assigned label 0.
+## Known public-text limitation
+
+One known query–chunk pair has a semantic consistency difference between the de-identified public text and the frozen evaluation text.
+
+Stable identifier:
+
+- query_id: `q28`
+- chunk_id: `2017_2017_sec_0126_text_001_chunk_013`
+
+**Paper-result reproduction:** use the released frozen Top 10 results, final qrels, and evaluation scripts unchanged. The public-text difference does not affect recalculation of the paper's reported results.
+
+**New-method evaluation:** manually re-judge this pair against the public text under the same 0/1/2 relevance guideline before scoring; do not automatically reuse its frozen label. Record the judgment separately for the new evaluation, leaving the released qrels unchanged.
+
+Newly retrieved pairs absent from the frozen qrels are unjudged, not label 0. They also require manual judgment before inclusion in a new evaluation. See the [README evaluation rules](../README.md#known-evaluation-limitation).
+
+This documentation clarification does not revise the v1.0.0 data or move its tag.
 
 The corpus is selectively de-identified, not guaranteed anonymous. Original PDFs, unredacted experimental text, historical annotation workbooks, local paths, caches, and model files are excluded. This release is available for academic and scientific research use under DATA_USE_TERMS.md.
 

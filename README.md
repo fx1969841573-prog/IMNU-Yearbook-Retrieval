@@ -53,7 +53,26 @@ python scripts/evaluation/verify_frozen_results.py
 
 The read-only script uses the queries, final qrels, and existing Top 10 rankings to recompute P@10, R@10, MRR@10, nDCG@10, Hit@10, and four two-sided paired Wilcoxon tests with Holm correction for SA-BM25 versus BM25. It requires no retrieval models. Binary relevance uses label ≥ 1; nDCG uses the 0/1/2 labels as linear gains. Metrics are macro-averaged across 60 queries. Unjudged ranked items cause an error.
 
-The public corpus differs in text from the corpus used to generate the frozen rankings, so rerunning retrieval on public text need not reproduce those rankings. One known `q28` query–unit semantic consistency limitation remains after de-identification. The frozen judgment is retained for paper reproducibility; when evaluating a new method on public text, handle that pair explicitly and do not treat pool-external unjudged items as label 0. See [release notes](docs/RELEASE_NOTES.md).
+The public corpus differs in text from the corpus used to generate the frozen rankings, so rerunning retrieval on public text need not reproduce those rankings.
+
+## Known Evaluation Limitation
+
+One known query–chunk pair associated with `q28` has a semantic consistency difference between the de-identified public corpus text and the frozen text used for the paper's evaluation.
+
+Stable identifier:
+
+- query_id: `q28`
+- chunk_id: `2017_2017_sec_0126_text_001_chunk_013`
+
+For reproduction of the paper's reported results, use the released frozen Top 10 results, final qrels, and evaluation scripts. This public-text difference does not affect that evaluation recalculation.
+
+For evaluation of new retrieval methods directly on the public corpus:
+
+1. Manually re-judge this known pair against the public text under the same 0/1/2 relevance guideline described above before scoring. Do not automatically reuse its frozen relevance label.
+2. Treat newly retrieved query–chunk pairs absent from the frozen qrels as **unjudged**. Have them manually judged under the same guideline before including them in a new evaluation; never automatically assign label 0.
+3. Record the public-text judgments separately for the new study and report the evaluation scope. Keep the released frozen qrels, Top 10 results, and benchmark results unchanged.
+
+See [release notes](docs/RELEASE_NOTES.md) for the corresponding v1.0.0 clarification.
 
 ## Privacy, scope, and access
 
