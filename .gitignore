@@ -1,0 +1,16 @@
+.env
+.env.*
+*.key
+*.pem
+__pycache__/
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+history/
+annotation_legacy/
+raw/
+private/
+original_pdfs/
+*.tmp

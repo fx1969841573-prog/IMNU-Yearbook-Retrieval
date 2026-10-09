@@ -1,0 +1,302 @@
+[
+  {
+    "query_id": "q01",
+    "query": "2014年大事记 学校重要事件",
+    "query_type": "single_year_fact"
+  },
+  {
+    "query_id": "q02",
+    "query": "2015年本科教学 审核评估",
+    "query_type": "single_year_fact"
+  },
+  {
+    "query_id": "q03",
+    "query": "2014年科研奖励 科研成果奖励",
+    "query_type": "single_year_fact"
+  },
+  {
+    "query_id": "q04",
+    "query": "2018年学生资助 国家助学金",
+    "query_type": "single_year_fact"
+  },
+  {
+    "query_id": "q05",
+    "query": "组织机构 校友会 分会",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q06",
+    "query": "国际交流 合作办学 外国大学",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q07",
+    "query": "留学生 教育 国际学生",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q08",
+    "query": "校友工作 校友会 校友分会",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q09",
+    "query": "学术活动 学术讲座 学术研讨会",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q10",
+    "query": "就业指导 创新创业 毕业生就业",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q11",
+    "query": "2016年教师教育 特色彰显",
+    "query_type": "single_year_fact"
+  },
+  {
+    "query_id": "q12",
+    "query": "学科建设 重点学科 学位点",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q13",
+    "query": "学生表彰奖励 三好学生 优秀学生干部",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q14",
+    "query": "专业技术职务聘任 教师职称",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q15",
+    "query": "基层党组织建设 党建工作",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q16",
+    "query": "校园文化 文艺活动 社团活动",
+    "query_type": "semantic_summary"
+  },
+  {
+    "query_id": "q17",
+    "query": "研究生教育 学位论文 优秀研究生",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q18",
+    "query": "实验室 实践基地 教学基础设施",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q19",
+    "query": "图书馆 档案馆 信息化建设",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q20",
+    "query": "2017年大事记 重要会议",
+    "query_type": "single_year_fact"
+  },
+  {
+    "query_id": "q21",
+    "query": "2014年学校在哪些方面推进教学改革",
+    "query_type": "single_year_fact"
+  },
+  {
+    "query_id": "q22",
+    "query": "2015年学校接受本科审核评估时专家组查看了哪些材料",
+    "query_type": "single_year_fact"
+  },
+  {
+    "query_id": "q23",
+    "query": "2016年教师教育工作有哪些新变化",
+    "query_type": "single_year_fact"
+  },
+  {
+    "query_id": "q24",
+    "query": "2017年学校重要活动和会议有哪些",
+    "query_type": "single_year_fact"
+  },
+  {
+    "query_id": "q25",
+    "query": "2018年学校怎样开展困难学生资助",
+    "query_type": "single_year_fact"
+  },
+  {
+    "query_id": "q26",
+    "query": "学校近几年学生资助政策和金额情况",
+    "query_type": "cross_year_comparison"
+  },
+  {
+    "query_id": "q27",
+    "query": "哪些学院或学生获得自治区三好学生表彰",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q28",
+    "query": "优秀学生干部名单里有哪些学院和学生",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q29",
+    "query": "2018年本科生受到哪些表彰奖励",
+    "query_type": "single_year_fact"
+  },
+  {
+    "query_id": "q30",
+    "query": "学校科研成果奖励主要奖励哪些类型的成果",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q31",
+    "query": "2014年科研成果奖励涉及多少论文和项目",
+    "query_type": "single_year_fact"
+  },
+  {
+    "query_id": "q32",
+    "query": "学校学术讲座通常涉及哪些主题",
+    "query_type": "semantic_summary"
+  },
+  {
+    "query_id": "q33",
+    "query": "学术研讨会在不同年份有哪些代表性活动",
+    "query_type": "cross_year_comparison"
+  },
+  {
+    "query_id": "q34",
+    "query": "学校如何推进国际合作课程和海外交流",
+    "query_type": "semantic_summary"
+  },
+  {
+    "query_id": "q35",
+    "query": "与蒙古国和俄罗斯高校的合作情况",
+    "query_type": "semantic_summary"
+  },
+  {
+    "query_id": "q36",
+    "query": "留学生来自哪些国家以及人数变化",
+    "query_type": "cross_year_comparison"
+  },
+  {
+    "query_id": "q37",
+    "query": "学校为毕业生就业提供了哪些服务",
+    "query_type": "semantic_summary"
+  },
+  {
+    "query_id": "q38",
+    "query": "创新创业训练项目和创业活动情况",
+    "query_type": "semantic_summary"
+  },
+  {
+    "query_id": "q39",
+    "query": "校友会如何联系校友并建设分会",
+    "query_type": "semantic_summary"
+  },
+  {
+    "query_id": "q40",
+    "query": "校友捐赠和校友服务平台建设情况",
+    "query_type": "semantic_summary"
+  },
+  {
+    "query_id": "q41",
+    "query": "学校党组织建设采取了哪些做法",
+    "query_type": "semantic_summary"
+  },
+  {
+    "query_id": "q42",
+    "query": "巡视整改和从严治党工作有哪些内容",
+    "query_type": "semantic_summary"
+  },
+  {
+    "query_id": "q43",
+    "query": "学校重点学科和学位授权点建设有哪些进展",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q44",
+    "query": "研究生优秀学位论文和导师表彰情况",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q45",
+    "query": "教师职称聘任和专业技术岗位变化",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q46",
+    "query": "学校有哪些实验室和实践教学基地",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q47",
+    "query": "本科审核评估专家考察了哪些教学设施",
+    "query_type": "single_year_fact"
+  },
+  {
+    "query_id": "q48",
+    "query": "图书馆服务和馆藏建设有什么变化",
+    "query_type": "semantic_summary"
+  },
+  {
+    "query_id": "q49",
+    "query": "档案馆获得过哪些荣誉或开展哪些工作",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q50",
+    "query": "校园文化建设有哪些代表性成果",
+    "query_type": "semantic_summary"
+  },
+  {
+    "query_id": "q51",
+    "query": "学生社团和志愿服务活动有哪些",
+    "query_type": "semantic_summary"
+  },
+  {
+    "query_id": "q52",
+    "query": "2014到2018年学校大事记有哪些连续变化",
+    "query_type": "cross_year_comparison"
+  },
+  {
+    "query_id": "q53",
+    "query": "不同年份学生表彰奖励名单有什么变化",
+    "query_type": "cross_year_comparison"
+  },
+  {
+    "query_id": "q54",
+    "query": "2017年学校在教学和科研方面取得哪些成果",
+    "query_type": "single_year_fact"
+  },
+  {
+    "query_id": "q55",
+    "query": "2018年学校对外交流和合作有哪些进展",
+    "query_type": "single_year_fact"
+  },
+  {
+    "query_id": "q56",
+    "query": "学校如何加强辅导员和学生管理服务",
+    "query_type": "semantic_summary"
+  },
+  {
+    "query_id": "q57",
+    "query": "学校人才队伍建设和教师培养举措",
+    "query_type": "semantic_summary"
+  },
+  {
+    "query_id": "q58",
+    "query": "学校信息化平台和网络服务建设情况",
+    "query_type": "semantic_summary"
+  },
+  {
+    "query_id": "q59",
+    "query": "有哪些自治区级教学成果奖或质量工程项目",
+    "query_type": "structure_locating"
+  },
+  {
+    "query_id": "q60",
+    "query": "学校五年间国际交流学生和教师活动有什么趋势",
+    "query_type": "cross_year_comparison"
+  }
+]

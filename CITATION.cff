@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use the IMNU-Yearbook dataset in your research, please cite this dataset and the associated paper."
+title: "IMNU-Yearbook Retrieval Dataset"
+
+authors:
+  - family-names: "冯"
+    given-names: "晓"
+  - family-names: "斯琴图"
+  - family-names: "王"
+    given-names: "斯日古楞"
+
+repository-code: "https://github.com/fx1969841573-prog/IMNU-Yearbook-Retrieval"
+
+keywords:
+  - university yearbooks
+  - information retrieval
+  - dataset
+  - structure-aware retrieval
+  - benchmark
+
+preferred-citation:
+  type: unpublished
+  title: "高校年鉴结构感知检索数据集构建与评测"
+  authors:
+    - family-names: "冯"
+      given-names: "晓"
+    - family-names: "斯琴图"
+    - family-names: "王"
+      given-names: "斯日古楞"
